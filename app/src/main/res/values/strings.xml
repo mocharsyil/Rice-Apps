@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Pari</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="lewati">Lewati</string>
+    <string name="take_picture">Ambil Gambar</string>
+    <string name="kembali_ke_menu_utama">Kembali ke Menu Utama</string>
+    <string name="category">Category</string>
+    <string name="detail_category">Detail Category</string>
+    <string name="dummy_category">Tungro</string>
+    <string name="dummy_detail">Penyakit ini diasosiakan dengan dua virus, yakni RTBV dan RTSV yang umumnya disebarkan oleh serangga. Beberapa gejala yang dapat timbul akibat tungro adalah stunting dan adanya warna kuning sampai oranye di daun tanaman.</string>
+    <string name="rice_apps">Rice Apps</string>
+
+    <string name="lorem_ipsum">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u00E2\u0080\u0099s standard dummy text ever since the ,
+    </string>
+
+    <string name="login">
+    Login
+    </string>
+
+    <string name="welcome">
+    Welcome
+    </string>
+    <string name="register">Register</string>
+
+    <string name="loginName">Enter your Email</string>
+    <string name="loginPassword">Confirm Password</string>
+
+    <string name="registerInputName">Enter your full name</string>
+    <string name="registerInputEmail">Enter your Email</string>
+    <string name="registerInputPassword">Create Password</string>
+    <string name="registerInputConfirmPassword">Confirm Password</string>
+
+    <string name="not_have_an">
+Not have an account? Register
+</string>
+
+    <string name="have_an">
+Have an account? Login
+</string>
+
+</resources>
