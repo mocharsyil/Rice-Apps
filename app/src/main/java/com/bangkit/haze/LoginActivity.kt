@@ -3,10 +3,7 @@ package com.bangkit.haze
 import android.content.Intent
 import android.os.Bundle
 import android.view.WindowManager
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageButton
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -51,6 +48,18 @@ class LoginActivity : AppCompatActivity() {
             } else {
                 // Show error message or handle invalid login credentials
                 Toast.makeText(this@LoginActivity, "Invalid credentials", Toast.LENGTH_SHORT).show()
+            }
+        }
+
+        val notHaveAnAccountTextView = findViewById<TextView>(R.id.not_have_an)
+        notHaveAnAccountTextView.setOnClickListener {
+            val registerText = getString(R.string.register)
+            val notHaveAnAccountText = notHaveAnAccountTextView.text.toString()
+            val registerIndex = notHaveAnAccountText.indexOf(registerText)
+            if (registerIndex != -1) {
+                // Handle register click event
+                val intent = Intent(this, RegisterActivity::class.java)
+                startActivity(intent)
             }
         }
     }
