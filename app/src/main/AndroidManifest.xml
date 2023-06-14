@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Rice">
+        <activity android:name="com.bangkit.haze.DetailActivity"></activity>
 
+        <activity android:name="com.bangkit.haze.MainActivity" />
         <activity android:name="com.bangkit.haze.SplashScreActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
