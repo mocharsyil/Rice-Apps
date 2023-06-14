@@ -1,20 +1,25 @@
 package com.bangkit.haze
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.WindowManager
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-
-
-
-
+import com.bangkit.haze.api.LoginManager
+import okhttp3.*
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.RequestBody.Companion.toRequestBody
+import org.json.JSONObject
+import java.io.IOException
 
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var editTextName: EditText
     private lateinit var editTextPassword: EditText
     private lateinit var buttonLogin: Button
+
+    private val loginManager = LoginManager()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,21 +39,11 @@ class LoginActivity : AppCompatActivity() {
         buttonLogin = findViewById(R.id.login)
 
         buttonLogin.setOnClickListener {
-            val name = editTextName.text.toString()
+            val username = editTextName.text.toString()
             val password = editTextPassword.text.toString()
 
-            // Perform login validation here
-            // Example code:
-            if (name == "admin" && password == "password") {
-                // Login successful, navigate to the next activity
-                // Replace MainActivity::class.java with your desired activity
-                val intent = Intent(this@LoginActivity, DashboardActivity::class.java)
-                startActivity(intent)
-                finish()
-            } else {
-                // Show error message or handle invalid login credentials
-                Toast.makeText(this@LoginActivity, "Invalid credentials", Toast.LENGTH_SHORT).show()
-            }
+            // Perform login operation
+            loginManager.login(username, password, this)
         }
 
         val notHaveAnAccountTextView = findViewById<TextView>(R.id.not_have_an)
@@ -63,4 +58,28 @@ class LoginActivity : AppCompatActivity() {
             }
         }
     }
+
+    fun onLoginSuccess(token: String) {
+        runOnUiThread {
+            // Handle successful login
+            Toast.makeText(this, "Login successful. Token: $token", Toast.LENGTH_SHORT).show()
+            // You can store the token or perform any other required actions
+
+            val intent = Intent(this, DashboardActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+    }
+
+    fun onLoginFailure(errorMessage: String? = null) {
+        runOnUiThread {
+            // Handle unsuccessful login
+            Toast.makeText(this, "Login unsuccessful. $errorMessage", Toast.LENGTH_SHORT).show()
+            // You can display an error message or perform any other required actions
+        }
+    }
+
+
+
+
 }

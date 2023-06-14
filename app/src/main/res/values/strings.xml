@@ -38,5 +38,39 @@ Not have an account? Register
     <string name="have_an">
 Have an account? Login
 </string>
+    <string name="brownspot">
+    To manage bacterial brown spot, several strategies can be employed:
+    \n\n
+    1. Use disease-resistant varieties: Planting rice varieties with resistance to bacterial brown spot can be an effective way to minimize the diseases impact. Resistant varieties are available and can help reduce the severity of symptoms.
+    \n\n
+    2. Crop rotation and field sanitation: Practicing crop rotation and removing infected plant debris can help reduce the survival and spread of the bacteria. It is important to thoroughly clean and sanitize the field before planting a new crop.
+    \n\n
+    3. Balanced fertilization and irrigation: Maintaining proper nutrient levels and irrigation practices can help enhance plant vigor and reduce susceptibility to bacterial brown spot.
+    \n\n
+    4. Copper-based sprays: Copper-based bactericides can be applied as a preventive measure or at the early stages of infection to help control the spread of the bacteria. Consult with local agricultural authorities for recommended products and application guidelines.
+    \n\n
+    5. Timing of planting: Adjusting the planting time to avoid periods of high disease pressure can help reduce the incidence of bacterial brown spot.
+</string>
+    <string name="leafblast">
+    To manage leaf blast and prevent the occurrence of brown spots on rice leaves, several strategies can be employed:\n\n
+
+1. Use resistant rice varieties: Planting resistant or tolerant rice varieties can significantly reduce the incidence and severity of leaf blast. Breeding programs have developed many resistant varieties that can be effective against specific strains of the pathogen.
+\n\n
+2. Crop rotation: Avoid planting rice in the same field continuously. Rotate with non-host crops to disrupt the disease cycle and reduce inoculum levels.
+\n\n
+3. Proper field hygiene: Remove and destroy infected plant debris after harvest to reduce the carryover of the pathogen to the next growing season.
+\n\n
+4. Balanced fertilization: Avoid excessive nitrogen fertilization, as it can promote the development of leaf blast. Follow recommended fertilizer practices to maintain balanced nutrition in the rice plants.
+\n\n
+5. Fungicide application: In severe cases, foliar fungicides can be used to control leaf blast. Consult with local agricultural authorities or experts to determine the appropriate fungicides and application timings.
+    </string><string name="hispa">
+    To manage hispa infestations, several control measures can be employed:\n\n
+
+1. Cultural control: Implement good agricultural practices such as proper field preparation, timely sowing, and maintaining proper water management to reduce hispa populations.\n\n
+2. Biological control: Encourage natural predators and parasites of hispa, such as spiders, ladybirds, dragonflies, and parasitic wasps, to keep the population in check.\n\n
+3. Chemical control: In cases of severe infestation, insecticides may be applied following recommended dosages and application techniques. However, this should be done judiciously and in accordance with integrated pest management (IPM) principles to minimize environmental impact.\n\n
+4. Resistant varieties: Planting resistant rice varieties can help reduce the susceptibility to hispa infestation. Consult with local agricultural extension services or experts to identify and select suitable resistant varieties.\n\n
+5. Crop rotation: Practice crop rotation to disrupt the life cycle of hispa and reduce their population buildup.
+        </string>
 
 </resources>

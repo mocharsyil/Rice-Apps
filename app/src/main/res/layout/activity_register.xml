@@ -35,7 +35,7 @@
 
 
         <EditText
-            android:id="@+id/registerName"
+            android:id="@+id/registerFullName"
             android:layout_width="297dp"
             android:layout_height="57dp"
             android:layout_below="@id/WelcomeTextView"
@@ -47,27 +47,27 @@
             android:paddingLeft="8dp" />
 
         <EditText
-            android:id="@+id/registerEmail"
+            android:id="@+id/registerUsername"
             android:layout_width="297dp"
             android:layout_height="57dp"
-            android:layout_below="@id/registerName"
+            android:layout_below="@id/registerFullName"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:background="@drawable/input"
             android:hint="@string/registerInputEmail"
-            android:inputType="textPassword"
+            android:inputType="text"
             android:paddingLeft="8dp" />
 
         <EditText
             android:id="@+id/registerPassword"
             android:layout_width="297dp"
             android:layout_height="57dp"
-            android:layout_below="@id/registerEmail"
+            android:layout_below="@id/registerUsername"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:background="@drawable/input"
             android:hint="@string/registerInputPassword"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:paddingLeft="8dp" />
 
         <EditText
@@ -85,7 +85,7 @@
 
 
         <Button
-            android:id="@+id/login"
+            android:id="@+id/register"
             android:layout_width="284dp"
             android:layout_height="48.69dp"
             android:layout_below="@id/registerConfirmPassword"

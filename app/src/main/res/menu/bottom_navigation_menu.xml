@@ -9,10 +9,10 @@
         android:title="Plant Scan"
         android:icon="@drawable/ic_camera" />
 
-    <item
-        android:id="@+id/menu_multiclass"
-        android:title="Leaf Scan"
-        android:icon="@drawable/ic_camera" />
+<!--    <item-->
+<!--        android:id="@+id/menu_multiclass"-->
+<!--        android:title="Leaf Scan"-->
+<!--        android:icon="@drawable/ic_camera" />-->
     <item
         android:id="@+id/menu_profile"
         android:title="Profile"

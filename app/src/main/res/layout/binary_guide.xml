@@ -37,7 +37,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/ButtonBinaryPred"
+        android:id="@+id/buttonBinaryPred"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
