@@ -22,7 +22,10 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/Theme.Rice">
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5acf431ab61aeab763e4ee7a8a684e54505fa377
         <activity android:name="com.bangkit.haze.SplashScreActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
